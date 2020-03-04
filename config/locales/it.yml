@@ -21,9 +21,9 @@ it:
     attributes:
       user:
         accepted_terms: "Termini e condizioni"
-        email:
+        email: Email
         name: Nome
-        password:
+        password: Password
         password_confirmation: Conferma della Password
     errors:
       models:
@@ -43,9 +43,9 @@ it:
         placeholder: Indirizzo immagine...
         title: Logo
       cache:
-        info:
-        title:
-        button:
+        info: Svuota la cache per forzare la rigenerazione
+        title: Svuota la cache
+        button: Svuota la cache
       color:
         info: "Cambiando il valore del colore di base, verranno cambiati sia la versione chiara che scura. Le due versioni possono essere modificate individualmente"
         title: Colore primario
@@ -86,11 +86,11 @@ it:
       title: Registrazioni video sul server
       no_recordings: Il server non ha registrazioni video
     roles:
-      can_create_rooms: Non posso creare la stanza
+      can_create_rooms: Possono creare stanze
       delete: Cancella il ruolo
-      invalid_create:
-      invalid_order:
-      invalid_update:
+      invalid_create: Problemi durante la creazione del ruolo. Riprova.
+      invalid_order: Problemi durante l'aggiornamento del ruolo.
+      invalid_update: Problemi durante l'aggiornamento del ruolo.
       name: Nome del Ruolo
       new_role: Crea un nuovo ruolo
       role_has_users: "Questo ruolo è ancora assegnato a %{user_count} utenti. Prego rimuovi tutti gli utenti con quel ruolo prima di eliminare il ruolo stesso"
@@ -100,7 +100,7 @@ it:
       edit_site_settings: Consenti agli Utenti con questo ruolo di modificare le impostazioni del sito
       edit_roles: Consenti agli Utenti con questo ruolo di modificare altri ruoli
       manage_users: Consenti agli Utenti di questo ruolo di gestire il profilo di altri utenti
-      invalid_assignment: 
+      invalid_assignment: Problemi durante l'assegnazione del ruolo all'utente
       colour:
         title: Colore associato al ruolo
         info: Imposta il colore che sarà associato al ruolo
@@ -392,7 +392,7 @@ it:
       merge_success:
     invite:
       fail:
-      no_invite:
+      no_invite: Non hai ricevuto il permesso di partecipare. Contatta il gestore.
   rename: Rinomina
   reset_password:
     subtitle: Reimposta password
@@ -400,7 +400,7 @@ it:
     confirm: Conferma nuova password
     update: Aggiorna password
   roles:
-    admin:
+    admin: Amministratore
     banned: Bloccato
     pending: In attesa
     user: Utente
