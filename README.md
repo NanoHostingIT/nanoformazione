@@ -9,3 +9,7 @@ NanoFormazione è una piattaforma per la gestione delle lezioni online in dirett
   * Visualizza le registrazioni e condividile con altri.
 
 Interessato? Prova NanoFormazione ora sulla nostra [demo](https://lezioni.nanoh.it/)!
+
+---
+
+[Docker Repo](https://hub.docker.com/r/nanohosting/nanoformazione)
