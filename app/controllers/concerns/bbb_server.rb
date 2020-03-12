@@ -54,10 +54,10 @@ module BbbServer
     bbb_server.join_meeting_url(room.bbb_id, name, password, join_opts)
   end
 
-  # Creates a meeting on the BigBlueButton server.
+  # Creates a meeting on the BigBlueButton server. options[:meeting_recorded].to_s
   def start_session(room, options = {})
     create_options = {
-      record: options[:meeting_recorded].to_s,
+      record: true,
       logoutURL: options[:meeting_logout_url] || '',
       moderatorPW: room.moderator_pw,
       attendeePW: room.attendee_pw,
